@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding-right: 0px;
+  font-family: 'Permanent Marker', cursive;
+font-family: 'Raleway', sans-serif;
+
+}
+body{
+  background-image: url(./imagini/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+.navbar {
+ width: 85%;
+ margin: auto;
+ padding: 35 px 0;
+ display: flex;
+ align-items: center; 
+ justify-content: space-between;
+}
+
+
+.logo{
+  width: 120px;
+  cursor: pointer;
+}
+
+
+  /* navbar */
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 60px;
+  font-size: 20px;
+  position: relative;
+}
+.navbar ul{
+  padding-top: 100px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+a.active, a:hover{
+  background-color: rgb(250, 250, 250);
+  color: rgb(255, 255, 255);
+
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+  text-align: center;
+  color : black;
+}
+
+.content h1{
+
+   font-size: 200px;
+   margin-top: 0px;
+   line-height: 25px;
+   margin-bottom: -400px;
+
+}
+
+.content p{
+  margin: 20px auto ;
+  font-weight: 500px;
+  margin-top: 500px;
+  line-height: 25px;
+  font-size: 50px;
+}
+
+
+
+
+button {
+  width: 600px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 100px 100px;
+  border-radius: 100px;
+  font-weight: 10px;
+  border: 2px solid #030303;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+
+  
+}
+
+.butoane{
+  margin-bottom: 900px;
+  margin-top: 400px;
+  padding-left: 600px;
+  font-size: 400px;
+  display: inline-block;
+  
+}
+
+.logo{                           /*           masina icon  */
+  width: 600px;
+  height: 300px;
+  cursor: pointer;
+ margin-left:  -200px;
+}
+
+
+
+
+
+/* end casete */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

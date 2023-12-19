@@ -1,0 +1,43 @@
+body{
+  background-image: url(./imagini/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title{
+  font-size: px;
+  text-align: center;
+  padding-bottom: 500px;
+  font-size: 60px;
+}
+
+
+
+.card{
+  width:  500px;
+  height: 400px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 15px 25px;
+ 
+ 
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 15px 15px;
+  transition: transform 0.5s;
+  background-position: center;
+  background-size: cover ;
+}
+
+
+
+.card1{
+  background-image: url(./imagini/laptop.jpg);
+}
+
+.card2{
+  background-image: url(./imagini/desktop.jpg);
+}
+
